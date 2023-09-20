@@ -13,6 +13,7 @@ public class Kitle_Endeks {
         double kilo = scan.nextDouble();
 
         double index = kilo / (boy * boy);
+        System.out.println("Vücut kitle endeksin => " +index);
 
         if (index >= 40) System.out.println("Morbid Obez");
         else if (index >= 30) System.out.println("Obez");
